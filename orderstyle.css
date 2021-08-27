@@ -1,0 +1,138 @@
+/*------universal selector ---->>>*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Red Hat Display',
+  sans-serif;
+  background: url(images/pattern-background-desktop.svg);
+  background-repeat:no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.main-div{
+  margin: 40px auto;
+  width: 28vw;
+  height:80vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3),
+  0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  align-items: center;
+  border-radius: 15px;
+  background: url(images/illustration-hero.svg) no-repeat;
+  background-position: top;
+  position: relative;
+}
+.inside-div{
+  background: white;
+  height: 60%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  top: 40%;
+  position: absolute;
+}
+.main-para{
+  font-weight: 400;
+  text-align: center;
+  margin: 10px 20px;
+  font-size: 16px;
+}
+h1{
+  margin-top: 10px;
+  font-weight: 900;
+}
+
+.inside-2-div{
+  background:  hsl(225, 100%, 98%);
+  margin: 20px auto;
+  padding: 20px;
+  width: 85%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.inside-2-div a{
+  color: hsl(245, 75%, 52%);
+  position: absolute;
+  top: 40%;
+  left: 75%;
+  text-decoration: none;
+  font-weight: 700;
+  transition: all 1s linear;
+}
+
+.inside-2-div a:hover{
+  color:hsl(245, 75%, 52%);
+  opacity: 0.7;
+  transform: translate(0.5px);
+}
+
+.inside-2-div img{
+  width: 40px;
+  position: absolute;
+  left: 25px;
+}
+
+.inside-2-div h2{
+  font-weight: 900;
+  font-size:16px;
+  letter-spacing: 0.5px;
+  margin-left: -57px;
+}
+
+.inside-2-div p{
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size:16px;
+  margin-left: -60px;
+}
+
+
+
+.inside-3-div button{
+  background: hsl(245, 75%, 52%);
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 1px solid hsl(245, 75%, 52%);
+  padding: 10px;
+  display: block;
+  width: 85%;
+  transition: all 1s linear;
+}
+
+button a{
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.inside-3-div > a{
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  margin-top: 10px;
+  text-decoration: none;
+  transition: all 0.5s linear;
+}
+
+.inside-3-div>a:hover{
+  color: hsl(220, 4%, 17%);
+  opacity: 1;
+  transform: translate(0.5px);
+}
+
+.inside-3-div button:hover{
+  transform: translatey(-2px);
+  opacity: 0.8;
+  border: 1px solid hsl(245, 90%, 72%);
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 hsl(245, 90%, 72%);
+}
+
+
+
+
+
+
