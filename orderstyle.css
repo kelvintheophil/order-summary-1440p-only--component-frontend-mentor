@@ -1,9 +1,11 @@
 /*------universal selector ---->>>*/
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* body default styling------ */
 body{
   font-family: 'Red Hat Display',
   sans-serif;
